@@ -23,9 +23,9 @@ The data is structured for analytics, reporting, and further processing.
 ## Tools & Technologies Used
 
 Google Cloud Pub/Sub – Real-time messaging for event-driven processing. \
-Google Cloud DataFlow – Managed service for ETL (Extract, Transform, Load). \\
-Google Cloud Storage – Stores Python transformation scripts. /
-Google BigQuery – Data Warehouse for analytics.//
+Google Cloud DataFlow – Managed service for ETL (Extract, Transform, Load). \
+Google Cloud Storage – Stores Python transformation scripts. \
+Google BigQuery – Data Warehouse for analytics.\
 Python – Used for data transformation (UDFs).
 
 ## Prerequisites
@@ -52,9 +52,9 @@ Before running the pipeline, ensure the following:
 );`
 
 5. Enable Required APIs:
-  Cloud Pub/Sub API
-  DataFlow API
-  BigQuery API
+  Cloud Pub/Sub API \
+  DataFlow API \
+  BigQuery API \
   Cloud Storage API
 
 6. Install Required Packages (If running locally): `pip install google-cloud-pubsub google-cloud-storage google-cloud-bigquery apache-beam`
