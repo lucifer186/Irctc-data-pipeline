@@ -22,10 +22,10 @@ The data is structured for analytics, reporting, and further processing.
 
 ## Tools & Technologies Used
 
-Google Cloud Pub/Sub – Real-time messaging for event-driven processing. \\
+Google Cloud Pub/Sub – Real-time messaging for event-driven processing. \
 Google Cloud DataFlow – Managed service for ETL (Extract, Transform, Load). \\
-Google Cloud Storage – Stores Python transformation scripts. \\
-Google BigQuery – Data Warehouse for analytics.\\
+Google Cloud Storage – Stores Python transformation scripts. /
+Google BigQuery – Data Warehouse for analytics.//
 Python – Used for data transformation (UDFs).
 
 ## Prerequisites
