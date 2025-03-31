@@ -7,14 +7,14 @@ This project is designed to process and transform IRCTC data using Google Cloud 
 ![image](https://github.com/user-attachments/assets/46370405-788b-422d-aab3-c9c575869da6)
 
 1. Data Ingestion:
-          1. Source data comes from IRCTC mock data as python script.
-          2. Data is published to a Google Cloud Pub/Sub Topic (irctc_data).
+    1. Source data comes from IRCTC mock data as python script.
+    2. Data is published to a Google Cloud Pub/Sub Topic (irctc_data).
 
-2. Data Processing via DataFlow:
+3. Data Processing via DataFlow:
     1. Reads data from Pub/Sub.
     2. Applies Python User-Defined Functions (UDFs) stored in Google Cloud Storage.
 
-3. Ensures fault tolerance during transformations.
+4. Ensures fault tolerance during transformations.
      1. Loading Data into BigQuery:
      2. Processed data is inserted into BigQuery Table (irctc_dwh.irctc_stream_tb).
 
